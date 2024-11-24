@@ -85,7 +85,6 @@ You are expected to submit a zip file, called `<UBIT_Name>.zip`, in UBLearn cons
 --edit_dist.py
 --MLP.py
 --bird_spark.py
---bird_simulation.gif
 ```
 
 ---
