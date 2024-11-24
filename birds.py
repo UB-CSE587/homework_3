@@ -86,6 +86,7 @@ if __name__=="__main__":
     args = parser.parse_args()
     
     # Simulation parameters
+    num_birds = args.num_birds
     num_frames = 500
 
     time_step = 1 / 4
