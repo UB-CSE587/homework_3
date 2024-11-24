@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import time
 import pickle as pk
+import argparse
 from get_gif import *
 
 # Function to compute the speed of a bird
@@ -79,6 +80,11 @@ def update_positions(positions):
     return positions
 
 if __name__=="__main__":
+    
+    parser = argparse.ArgumentParser(description="Edit Distance with PySpark")
+    parser.add_argument('--num_birds', type=int, default=10000, help="Number of birds")
+    args = parser.parse_args()
+    
     # Simulation parameters
     num_birds = 1000
     num_frames = 500
